@@ -144,8 +144,8 @@ public class PdmrRegistry {
             var floatNumber = 0.0;
 
             try {
-                value = value.replaceAll(",","").trim();
-                value = value.replaceAll(" ", "");
+                value = value.replace(",","").trim();
+                value = value.replace(" ", "");
                 floatNumber = Double.valueOf(value);
             }
             catch (Exception e) {
