@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0cdf7558-8249-4b61-9a4f-0e4249b53e58" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="209" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1VIPtU0CIvFyTFweWYNgCh49H6w" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/apptastic/mfsapdmr" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/apptastic/mfsapdmr" />
+      <recent name="$PROJECT_DIR$/src/main/java" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.All in mfsapdmr.test">
+    <configuration default="true" type="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in mfsapdmr.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mfsapdmr.test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PdmrRegistryTest.testEquals" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mfsapdmr.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.apptastic.mfsapdmr.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.apptastic.mfsapdmr" />
+      <option name="MAIN_CLASS_NAME" value="com.apptastic.mfsapdmr.PdmrRegistryTest" />
+      <option name="METHOD_NAME" value="testEquals" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PdmrRegistryTest.testHash" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mfsapdmr.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.apptastic.mfsapdmr.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.apptastic.mfsapdmr" />
+      <option name="MAIN_CLASS_NAME" value="com.apptastic.mfsapdmr.PdmrRegistryTest" />
+      <option name="METHOD_NAME" value="testHash" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PdmrRegistryTest.testSearch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mfsapdmr.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.apptastic.mfsapdmr.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.apptastic.mfsapdmr" />
+      <option name="MAIN_CLASS_NAME" value="com.apptastic.mfsapdmr.PdmrRegistryTest" />
+      <option name="METHOD_NAME" value="testSearch" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TransactionTest.testEquals" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mfsapdmr.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.apptastic.mfsapdmr.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.apptastic.mfsapdmr" />
+      <option name="MAIN_CLASS_NAME" value="com.apptastic.mfsapdmr.TransactionTest" />
+      <option name="METHOD_NAME" value="testEquals" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.All in mfsapdmr.test" />
+        <item itemvalue="JUnit.TransactionTest.testEquals" />
+        <item itemvalue="JUnit.PdmrRegistryTest.testSearch" />
+        <item itemvalue="JUnit.PdmrRegistryTest.testHash" />
+        <item itemvalue="JUnit.PdmrRegistryTest.testEquals" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0cdf7558-8249-4b61-9a4f-0e4249b53e58" name="Default Changelist" comment="" />
+      <created>1576937850523</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1576937850523</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Initial commit">
+      <created>1577013634458</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1577013634458</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Initial commit">
+      <created>1577013688313</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1577013688313</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Initial commit">
+      <created>1577014672057</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1577014672057</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Initial commit">
+      <created>1577014720639</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1577014720639</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Initial commit">
+      <created>1577014800318</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1577014800318</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Initial commit">
+      <created>1577015019219</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1577015019219</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Initial commit">
+      <created>1577015089565</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1577015089565</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Updated CI script">
+      <created>1577015437088</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1577015437088</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Updated CI script">
+      <created>1577016102283</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1577016102283</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Updated documentation">
+      <created>1577016635624</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1577016635624</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial commit" />
+    <MESSAGE value="Updated CI script" />
+    <MESSAGE value="Updated documentation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated documentation" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="579" y="202" width="811" height="669" key="#Project_Structure" timestamp="1576997725801">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="579" y="202" width="811" height="669" key="#Project_Structure/0.23.1680.1027@0.23.1680.1027" timestamp="1576997725801" />
+    <state x="444" y="198" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1576998023484">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="444" y="198" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1576998023484" />
+    <state x="792" y="227" key="#com.intellij.ide.util.MemberChooser" timestamp="1576999764069">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="792" y="227" key="#com.intellij.ide.util.MemberChooser/0.23.1680.1027@0.23.1680.1027" timestamp="1576999764069" />
+    <state x="519" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1577013327602">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="519" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1577013327601" />
+    <state x="575" y="247" key="#xdebugger.evaluate" timestamp="1577005915095">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="575" y="247" key="#xdebugger.evaluate/0.23.1680.1027@0.23.1680.1027" timestamp="1577005915095" />
+    <state x="429" y="139" key="CommitChangelistDialog2" timestamp="1577016635400">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="429" y="139" key="CommitChangelistDialog2/0.23.1680.1027@0.23.1680.1027" timestamp="1577016635400" />
+    <state width="565" height="466" key="DebuggerActiveHint" timestamp="1577003090445">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="565" height="466" key="DebuggerActiveHint/0.23.1680.1027@0.23.1680.1027" timestamp="1577003090445" />
+    <state x="670" y="437" width="524" height="199" key="Github.ShareDialog" timestamp="1577013396112">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="670" y="437" width="524" height="199" key="Github.ShareDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1577013396112" />
+    <state x="568" y="250" key="Github.UntrackedFilesDialog" timestamp="1577013413165">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="568" y="250" key="Github.UntrackedFilesDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1577013413165" />
+    <state width="1413" height="280" key="GridCell.Tab.0.bottom" timestamp="1577016071689">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1413" height="280" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1577016071689" />
+    <state width="1413" height="280" key="GridCell.Tab.0.center" timestamp="1577016071689">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1413" height="280" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1577016071689" />
+    <state width="1413" height="280" key="GridCell.Tab.0.left" timestamp="1577016071688">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1413" height="280" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1577016071688" />
+    <state width="1413" height="280" key="GridCell.Tab.0.right" timestamp="1577016071689">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1413" height="280" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1577016071689" />
+    <state width="1582" height="345" key="GridCell.Tab.1.bottom" timestamp="1577016071685">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1582" height="345" key="GridCell.Tab.1.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1577016071685" />
+    <state width="1582" height="345" key="GridCell.Tab.1.center" timestamp="1577016071685">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1582" height="345" key="GridCell.Tab.1.center/0.23.1680.1027@0.23.1680.1027" timestamp="1577016071685" />
+    <state width="1582" height="345" key="GridCell.Tab.1.left" timestamp="1577016071685">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1582" height="345" key="GridCell.Tab.1.left/0.23.1680.1027@0.23.1680.1027" timestamp="1577016071685" />
+    <state width="1582" height="345" key="GridCell.Tab.1.right" timestamp="1577016071685">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1582" height="345" key="GridCell.Tab.1.right/0.23.1680.1027@0.23.1680.1027" timestamp="1577016071685" />
+    <state x="481" y="175" key="SettingsEditor" timestamp="1576998137151">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="481" y="175" key="SettingsEditor/0.23.1680.1027@0.23.1680.1027" timestamp="1576998137151" />
+    <state x="405" y="276" key="Vcs.Push.Dialog.v2" timestamp="1577016637245">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="405" y="276" key="Vcs.Push.Dialog.v2/0.23.1680.1027@0.23.1680.1027" timestamp="1577016637245" />
+    <state x="464" y="293" width="683" height="486" key="find.popup" timestamp="1577013271787">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="464" y="293" width="683" height="486" key="find.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1577013271787" />
+    <state x="464" y="335" key="git4idea.merge.GitPullDialog" timestamp="1577016018614">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="464" y="335" key="git4idea.merge.GitPullDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1577016018614" />
+    <state x="644" y="250" width="670" height="676" key="search.everywhere.popup" timestamp="1577000793962">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="644" y="250" width="670" height="676" key="search.everywhere.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1577000793962" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/apptastic/mfsapdmr/package-info.java</url>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="pdmrList.get(i-1)" />
+        <watch expression="pdmrList.get(i)" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/mfsapdmr$PdmrTransactionRegisterTest.ic" NAME="PdmrTransactionRegisterTest Coverage Results" MODIFIED="1577005165504" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.apptastic.mfsapdmr.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/mfsapdmr$All_in_mfsapdmr_test.ic" NAME="All in mfsapdmr.test Coverage Results" MODIFIED="1577007622727" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/mfsapdmr$PdmrTransactionRegisterTest_testSearch.ic" NAME="PdmrTransactionRegisterTest.testSearch Coverage Results" MODIFIED="1577006632050" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.apptastic.mfsapdmr.*</FILTER>
+    </SUITE>
+  </component>
+</project>

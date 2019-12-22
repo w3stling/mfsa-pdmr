@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.apptastic.mfsapdmr.PdmrRegistryTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2019-12-22T12:02:20" hostname="Peters-MBP.aircard" time="2.776">
+  <properties/>
+  <testcase name="testHash" classname="com.apptastic.mfsapdmr.PdmrRegistryTest" time="2.085"/>
+  <testcase name="testEquals" classname="com.apptastic.mfsapdmr.PdmrRegistryTest" time="0.371"/>
+  <testcase name="testSearch" classname="com.apptastic.mfsapdmr.PdmrRegistryTest" time="0.32"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
