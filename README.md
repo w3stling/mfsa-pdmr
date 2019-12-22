@@ -1,15 +1,15 @@
-MFSA PDMR
-=============================
+Malta Financial Services Authority PDMR registry
+================================================
 
-[![Build Status](https://travis-ci.org/w3stling/mfsa-pdmr.svg?branch=master)](https://travis-ci.org/w3stling/mfsa-pdmr)
-[![Download](https://api.bintray.com/packages/apptastic/maven-repo/mfsa-pdmr/images/download.svg)](https://bintray.com/apptastic/maven-repo/mfsa-pdmr/_latestVersion)
+[![Build Status](https://travis-ci.org/w3stling/mfsapdmr.svg?branch=master)](https://travis-ci.org/w3stling/mfsa-pdmr)
+[![Download](https://api.bintray.com/packages/apptastic/maven-repo/mfsapdmr/images/download.svg)](https://bintray.com/apptastic/maven-repo/mfsa-pdmr/_latestVersion)
 [![Javadoc](https://img.shields.io/badge/javadoc-1.0.0-blue.svg)](https://w3stling.github.io/mfsa-pdmr/javadoc/1.0.0)
 [![License](http://img.shields.io/:license-MIT-blue.svg?style=flat-round)](http://apptastic-software.mit-license.org)   
-[![Quality Gate](https://sonarcloud.io/api/project_badges/measure?project=com.apptastic%3Amfsa-pdmr&metric=alert_status)](https://sonarcloud.io/dashboard?id=com.apptastic%3Amfsa-pdmr)
-[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=com.apptastic%3Amfsa-pdmr&metric=coverage)](https://sonarcloud.io/component_measures?id=com.apptastic%3Amfsa-pdmr&metric=Coverage)
-[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=com.apptastic%3Amfsa-pdmr&metric=bugs)](https://sonarcloud.io/component_measures?id=com.apptastic%3Amfsa-pdmr&metric=bugs)
-[![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=com.apptastic%3Amfsa-pdmr&metric=vulnerabilities)](https://sonarcloud.io/component_measures?id=com.apptastic%3Amfsa-pdmr&metric=vulnerabilities)
-[![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=com.apptastic%3Amfsa-pdmr&metric=code_smells)](https://sonarcloud.io/component_measures?id=com.apptastic%3Amfsa-pdmr&metric=code_smells)
+[![Quality Gate](https://sonarcloud.io/api/project_badges/measure?project=com.apptastic%3Amfsapdmr&metric=alert_status)](https://sonarcloud.io/dashboard?id=com.apptastic%3Amfsapdmr)
+[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=com.apptastic%3Amfsapdmr&metric=coverage)](https://sonarcloud.io/component_measures?id=com.apptastic%3Amfsapdmr&metric=Coverage)
+[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=com.apptastic%3Amfsapdmr&metric=bugs)](https://sonarcloud.io/component_measures?id=com.apptastic%3Amfsapdmr&metric=bugs)
+[![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=com.apptastic%3Amfsapdmr&metric=vulnerabilities)](https://sonarcloud.io/component_measures?id=com.apptastic%3Amfsapdmr&metric=vulnerabilities)
+[![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=com.apptastic%3Amfsapdmr&metric=code_smells)](https://sonarcloud.io/component_measures?id=com.apptastic%3Amfsapdmr&metric=code_smells)
 
 Person Discharging Managerial Responsibility (PDMR) transaction registry for [Malta Financial Services Authority][1] (MFSA)
 
@@ -20,7 +20,7 @@ Examples
 Get PDMR transactions
 ```java
 PdmrRegistry pdmrRegistry = new PdmrRegistry();
-List<Transactions>  transactions = pdmrRegistry.getTransactions()
+List<Transactions> transactions = pdmrRegistry.getTransactions()
                                                .collect(Collectors.toList());
 ```
 
