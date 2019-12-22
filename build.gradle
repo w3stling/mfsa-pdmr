@@ -92,6 +92,7 @@ jacoco {
 
 artifacts {
     archives sourcesJar
+    archives javadocJar
 }
 
 bintray {
