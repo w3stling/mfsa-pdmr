@@ -3,7 +3,7 @@ MFSA PDMR
 
 [![Build Status](https://travis-ci.org/w3stling/mfsa-pdmr.svg?branch=master)](https://travis-ci.org/w3stling/mfsa-pdmr)
 [![Download](https://api.bintray.com/packages/apptastic/maven-repo/mfsa-pdmr/images/download.svg)](https://bintray.com/apptastic/maven-repo/mfsa-pdmr/_latestVersion)
-[![Javadoc](https://img.shields.io/badge/javadoc-1.0.3-blue.svg)](https://w3stling.github.io/mfsa-pdmr/javadoc/1.0.3)
+[![Javadoc](https://img.shields.io/badge/javadoc-1.0.0-blue.svg)](https://w3stling.github.io/mfsa-pdmr/javadoc/1.0.0)
 [![License](http://img.shields.io/:license-MIT-blue.svg?style=flat-round)](http://apptastic-software.mit-license.org)   
 [![Quality Gate](https://sonarcloud.io/api/project_badges/measure?project=com.apptastic%3Amfsa-pdmr&metric=alert_status)](https://sonarcloud.io/dashboard?id=com.apptastic%3Amfsa-pdmr)
 [![Coverage](https://sonarcloud.io/api/project_badges/measure?project=com.apptastic%3Amfsa-pdmr&metric=coverage)](https://sonarcloud.io/component_measures?id=com.apptastic%3Amfsa-pdmr&metric=Coverage)
