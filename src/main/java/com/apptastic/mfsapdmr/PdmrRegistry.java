@@ -47,7 +47,8 @@ public class PdmrRegistry {
 
     /**
      * Get stream of PDMR transactions
-     * @return transactions
+     * @return transactions transactions
+     * @throws IOException io exception
      */
     public Stream<Transaction> getTransactions() throws IOException {
         return parse();
