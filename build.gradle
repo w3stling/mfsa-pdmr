@@ -97,7 +97,7 @@ bintray {
         pkg {
             repo = 'maven-repo'
             name = 'mfsapdmr'
-            desc = 'Java library for extracting data from the Malta Financial Services Authority (MFSA) P registry.'
+            desc = 'Java library for extracting data from the Malta Financial Services Authority (MFSA) PDMR registry.'
             issueTrackerUrl = 'https://github.com/w3stling/mfsa-pdmr/issues'
             vcsUrl = 'https://github.com/w3stling/mfsa-pdmr.git'
             licenses = ['MIT']
