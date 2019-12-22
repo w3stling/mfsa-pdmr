@@ -75,7 +75,7 @@ dependencies {
 }
 ```
 
-Lei library requires at minimum Java 11.
+MFSA PDMR library requires at minimum Java 11.
 
 License
 -------
