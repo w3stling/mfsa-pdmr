@@ -1,5 +1,5 @@
-Malta Financial Services Authority PDMR registry
-================================================
+MFSA PDMR registry
+==================
 
 [![Build Status](https://travis-ci.org/w3stling/mfsa-pdmr.svg?branch=master)](https://travis-ci.org/w3stling/mfsa-pdmr)
 [![Download](https://api.bintray.com/packages/apptastic/maven-repo/mfsapdmr/images/download.svg)](https://bintray.com/apptastic/maven-repo/mfsa-pdmr/_latestVersion)
@@ -21,7 +21,7 @@ Get PDMR transactions
 ```java
 PdmrRegistry pdmrRegistry = new PdmrRegistry();
 List<Transactions> transactions = pdmrRegistry.getTransactions()
-                                               .collect(Collectors.toList());
+                                              .collect(Collectors.toList());
 ```
 
 
