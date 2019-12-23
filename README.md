@@ -13,7 +13,7 @@ MFSA PDMR registry
 
 Person Discharging Managerial Responsibility (PDMR) transaction registry for [Malta Financial Services Authority][1] (MFSA)
 
-This Java library makes it easier to automate data extraction from MFSA PDMR register.
+This Java library makes it easier to automate data extraction from MFSA PDMR registry.
 
 Examples
 --------
