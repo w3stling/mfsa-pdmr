@@ -20,7 +20,7 @@ Examples
 Get PDMR transactions
 ```java
 PdmrRegistry pdmrRegistry = new PdmrRegistry();
-List<Transactions> transactions = pdmrRegistry.getTransactions()
+List<Transaction> transactions = pdmrRegistry.getTransactions()
                                               .collect(Collectors.toList());
 ```
 
