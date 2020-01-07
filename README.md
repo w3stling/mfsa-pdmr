@@ -52,7 +52,7 @@ Add dependency declaration:
     <dependencies>
         <dependency>
             <groupId>com.apptastic</groupId>
-            <artifactId>mfsa-pdmr</artifactId>
+            <artifactId>mfsapdmr</artifactId>
             <version>1.0.4</version>
         </dependency>
     </dependencies>
@@ -71,7 +71,7 @@ repositories {
 Add dependency declaration:
 ```groovy
 dependencies {
-    implementation 'com.apptastic:mfsa-pdmr:1.0.4'
+    implementation 'com.apptastic:mfsapdmr:1.0.4'
 }
 ```
 
