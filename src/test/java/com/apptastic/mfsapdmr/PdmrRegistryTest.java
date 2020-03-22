@@ -19,7 +19,7 @@ public class PdmrRegistryTest {
     public void testSearch() throws IOException {
         PdmrRegistry register = new PdmrRegistry();
         List<Transaction> pdmrList = register.getTransactions()
-                                         .collect(Collectors.toList());
+                                             .collect(Collectors.toList());
 
         assertTrue(pdmrList.size() > 500);
         for (Transaction pdmr : pdmrList) {
@@ -54,8 +54,8 @@ public class PdmrRegistryTest {
     public void testHash() throws IOException {
         PdmrRegistry register = new PdmrRegistry();
         List<Transaction> pdmrList = register.getTransactions()
-                .distinct()
-                .collect(Collectors.toList());
+                                             .distinct()
+                                             .collect(Collectors.toList());
 
         assertTrue(pdmrList.size() > 500);
 

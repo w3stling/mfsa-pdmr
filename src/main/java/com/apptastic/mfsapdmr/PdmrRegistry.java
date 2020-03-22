@@ -197,8 +197,11 @@ public class PdmrRegistry {
                 if (v != null) {
                     int start1 = v.indexOf("holds the position of");
                     int start2 = v.indexOf("holds the positions of");
+                    int start3 = v.indexOf("is a member of");
+                    int start4 = v.indexOf("is the");
                     int start = Math.max(start1, start2);
                     int end = v.lastIndexOf("within");
+                    int end2 = v.lastIndexOf("of");
                     if (start != -1 && end != -1) {
                         String role = v.substring(start + 22, end - 1).trim();
                         if (role.startsWith("a ")) {
@@ -208,6 +211,11 @@ public class PdmrRegistry {
                             role = role.substring(3).trim();
                         }
                         t.setRole(role);
+                    } else if (start3 != -1  && end2 != -1 && start3 < end2) {
+                        String role = v.substring(start3 + 5, end2 - 1).trim();
+                        t.setRole(role);
+                    } else if (start4 != -1 && end2 != -1) {
+                        String role = v.substring(start4 + 3, end2 - 1).trim();
                     }
                 }
             });
