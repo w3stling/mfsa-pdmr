@@ -37,6 +37,7 @@ public class Transaction implements Comparable<Transaction> {
                                                                         .thenComparing(Transaction::getPdmr);
     private String issuer;
     private String pdmr;
+    private boolean isCloselyAssociated;
     private LocalDate date;
     private String instrumentType;
     private String natureOfTransaction;
@@ -77,6 +78,22 @@ public class Transaction implements Comparable<Transaction> {
      */
     public void setPdmr(String pdmr) {
         this.pdmr = pdmr;
+    }
+
+    /**
+     * Check if there is a closely associated for the transaction.
+     * @return is closely associated
+     */
+    public boolean isCloselyAssociated() {
+        return isCloselyAssociated;
+    }
+
+    /**
+     * Set if there is a closely associated for the transaction.
+     * @param closelyAssociated - is closely associated
+     */
+    public void setCloselyAssociated(boolean closelyAssociated) {
+        isCloselyAssociated = closelyAssociated;
     }
 
     /**

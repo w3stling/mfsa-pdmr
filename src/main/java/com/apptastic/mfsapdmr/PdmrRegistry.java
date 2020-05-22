@@ -195,9 +195,7 @@ public class PdmrRegistry {
             COLUMN_NAME_FIELD_MAPPING.put(COLUMN_OTHER_INFORMATION, (t, v) -> {
                 t.setOtherInformation(v);
                 if (v != null) {
-                    if (v.contains("closely associated with")) {
-                        return;
-                    }
+                    t.setCloselyAssociated(v.toLowerCase().contains("closely associated"));
 
                     int start1 = v.indexOf("holds the position of");
                     int start2 = v.indexOf("holds the positions of");
