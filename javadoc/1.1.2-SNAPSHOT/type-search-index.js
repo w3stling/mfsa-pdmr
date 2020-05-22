@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes","url":"allclasses-index.html"},{"p":"com.apptastic.mfsapdmr","l":"PdmrRegistry"},{"p":"com.apptastic.mfsapdmr","l":"Transaction"}]
