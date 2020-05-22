@@ -3,7 +3,7 @@ MFSA PDMR registry
 
 [![Build Status](https://travis-ci.org/w3stling/mfsa-pdmr.svg?branch=master)](https://travis-ci.org/w3stling/mfsa-pdmr)
 [![Download](https://api.bintray.com/packages/apptastic/maven-repo/mfsapdmr/images/download.svg)](https://bintray.com/apptastic/maven-repo/mfsapdmr/_latestVersion)
-[![Javadoc](https://img.shields.io/badge/javadoc-1.0.4-blue.svg)](https://w3stling.github.io/mfsa-pdmr/javadoc/1.0.4)
+[![Javadoc](https://img.shields.io/badge/javadoc-1.1.0-blue.svg)](https://w3stling.github.io/mfsa-pdmr/javadoc/1.1.0)
 [![License](http://img.shields.io/:license-MIT-blue.svg?style=flat-round)](http://apptastic-software.mit-license.org)   
 [![Quality Gate](https://sonarcloud.io/api/project_badges/measure?project=com.apptastic%3Amfsapdmr&metric=alert_status)](https://sonarcloud.io/dashboard?id=com.apptastic%3Amfsapdmr)
 [![Coverage](https://sonarcloud.io/api/project_badges/measure?project=com.apptastic%3Amfsapdmr&metric=coverage)](https://sonarcloud.io/component_measures?id=com.apptastic%3Amfsapdmr&metric=Coverage)
@@ -53,7 +53,7 @@ Add dependency declaration:
         <dependency>
             <groupId>com.apptastic</groupId>
             <artifactId>mfsapdmr</artifactId>
-            <version>1.0.4</version>
+            <version>1.1.0</version>
         </dependency>
     </dependencies>
     ...
@@ -71,7 +71,7 @@ repositories {
 Add dependency declaration:
 ```groovy
 dependencies {
-    implementation 'com.apptastic:mfsapdmr:1.0.4'
+    implementation 'com.apptastic:mfsapdmr:1.1.0'
 }
 ```
 
