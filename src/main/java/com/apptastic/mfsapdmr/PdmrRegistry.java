@@ -168,7 +168,15 @@ public class PdmrRegistry {
             COLUMN_NAME_FIELD_MAPPING.put(COLUMN_ISSUER, Transaction::setIssuer);
 
             // Person Discharging Managerial Responsibility
-            COLUMN_NAME_FIELD_MAPPING.put(COLUMN_PDMR, Transaction::setPdmr);
+            COLUMN_NAME_FIELD_MAPPING.put(COLUMN_PDMR, (t, v) -> {
+                String pdmr = v;
+                int endPos = pdmr.indexOf(',');
+                if (endPos != -1) {
+                    pdmr = pdmr.substring(0, endPos).trim();
+                }
+
+                t.setPdmr(pdmr);
+            });
 
             // Date
             COLUMN_NAME_FIELD_MAPPING.put(COLUMN_DATE, (t, v) -> t.setDate(LocalDate.parse(v, DATE_FORMATTER)));
@@ -195,26 +203,38 @@ public class PdmrRegistry {
             COLUMN_NAME_FIELD_MAPPING.put(COLUMN_OTHER_INFORMATION, (t, v) -> {
                 t.setOtherInformation(v);
                 if (v != null) {
+                    String role = null;
+
                     t.setCloselyAssociated(v.toLowerCase().contains("closely associated"));
+
+                    if (v.toLowerCase().startsWith("director and ceo")) {
+                        role = "Director and CEO";
+                    }
 
                     int start1 = v.indexOf("holds the position of");
                     int start2 = v.indexOf("holds the positions of");
                     int start3 = v.indexOf("is a member of");
                     int start4 = v.indexOf("is the");
                     int start5 = v.indexOf("holds a position of");
+                    int start6 = v.indexOf(" is a ");
                     int start = Math.max(start1, start2);
-                    int end = v.lastIndexOf("within");
+                    int end1 = v.lastIndexOf("within");
                     int end2 = v.lastIndexOf("of");
+                    int end3 = v.toLowerCase().indexOf("of the issuer");
 
-                    String role = null;
-                    if (start != -1 && end != -1) {
-                        role = v.substring(start + 22, end - 1).trim();
-                    } else if (start5 != -1 && end != -1) {
-                        role = v.substring(start5 + 19, end - 1).trim();
+
+                    if (start != -1 && end1 != -1 && start < end1) {
+                        role = v.substring(start + 22, end1 - 1).trim();
+                    } else if (start5 != -1 && end1 != -1 && start5 < end1) {
+                        role = v.substring(start5 + 19, end1 - 1).trim();
                     } else if (start3 != -1  && end2 != -1 && start3 < end2) {
                         role = v.substring(start3 + 5, end2 - 1).trim();
-                    } else if (start4 != -1 && end2 != -1) {
+                    } else if (start4 != -1 && end2 != -1 && start4 < end2) {
                         role = v.substring(start4 + 3, end2 - 1).trim();
+                    } else if (start6 != -1 && end1 != -1 && start6 < end1) {
+                        role = v.substring(start6 + 6, end1 - 1).trim();
+                    } else if (end3 != -1) {
+                        role = v.substring(0, end3).trim();
                     }
 
                     if (role != null) {
@@ -223,6 +243,11 @@ public class PdmrRegistry {
                             role = role.substring(2).trim();
                         } else if (role.startsWith("an ")) {
                             role = role.substring(3).trim();
+                        }
+
+                        int endPos = role.indexOf(" - ");
+                        if (endPos != -1) {
+                            role = role.substring(0, endPos);
                         }
 
                         t.setRole(role);
