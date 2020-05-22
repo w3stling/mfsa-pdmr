@@ -24,6 +24,7 @@
 package com.apptastic.mfsapdmr;
 
 import java.time.LocalDate;
+import java.util.Comparator;
 import java.util.Objects;
 import java.util.Optional;
 
@@ -31,6 +32,9 @@ import java.util.Optional;
  * Person Discharging Managerial Responsibility (PDMR) transaction
  */
 public class Transaction implements Comparable<Transaction> {
+    private static final Comparator<Transaction> COMPARATOR = Comparator.comparing(Transaction::getDate)
+                                                                        .thenComparing(Transaction::getIssuer)
+                                                                        .thenComparing(Transaction::getPdmr);
     private String issuer;
     private String pdmr;
     private LocalDate date;
@@ -221,7 +225,7 @@ public class Transaction implements Comparable<Transaction> {
 
     @Override
     public int compareTo(Transaction o) {
-        return date.compareTo(o.date);
+        return COMPARATOR.compare(this, o);
     }
 
     @Override
