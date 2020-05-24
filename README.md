@@ -21,7 +21,7 @@ Get PDMR transactions
 ```java
 PdmrRegistry pdmrRegistry = new PdmrRegistry();
 List<Transaction> transactions = pdmrRegistry.getTransactions()
-                                              .collect(Collectors.toList());
+                                             .collect(Collectors.toList());
 ```
 
 
