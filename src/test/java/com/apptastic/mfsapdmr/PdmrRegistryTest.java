@@ -7,10 +7,7 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.stream.Collectors;
 
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertFalse;
-import static org.junit.Assert.assertNotNull;
-import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.*;
 
 
 public class PdmrRegistryTest {
@@ -30,8 +27,8 @@ public class PdmrRegistryTest {
             assertNotNull(pdmr.getNatureOfTransaction());
             assertNotNull(pdmr.getPlaceOfTransaction());
             assertNotNull(pdmr.getCurrency());
-            assertNotNull(pdmr.getPrice());
-            assertNotNull(pdmr.getVolume());
+            assertNotEquals(Double.NaN, pdmr.getPrice());
+            assertNotEquals(Double.NaN, pdmr.getVolume());
             assertNotNull(pdmr.getOtherInformation());
             assertNotNull(pdmr.getRole());
         }
@@ -46,7 +43,7 @@ public class PdmrRegistryTest {
 
         assertTrue(pdmrList.size() > 500);
         for (int i = 1; i < pdmrList.size(); ++i) {
-            assertFalse(pdmrList.get(i-1).equals(pdmrList.get(i)));
+            assertNotEquals(pdmrList.get(i - 1), pdmrList.get(i));
         }
     }
 
@@ -59,12 +56,7 @@ public class PdmrRegistryTest {
 
         assertTrue(pdmrList.size() > 500);
 
-        HashSet<Transaction> set = new HashSet<>();
-
-        for (int i = 0; i < pdmrList.size(); ++i) {
-            set.add(pdmrList.get(i));
-        }
-
+        HashSet<Transaction> set = new HashSet<>(pdmrList);
         assertEquals(pdmrList.size(), set.size());
     }
 }
