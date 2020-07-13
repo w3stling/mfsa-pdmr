@@ -78,7 +78,12 @@ public class PdmrRegistry {
 
             Transaction transaction = new Transaction();
             for (int j = 0; j < rowItems.size(); j++) {
-                mapper.createTransaction(transaction, j, rowItems.get(j).text());
+                try {
+                    mapper.createTransaction(transaction, j, rowItems.get(j).text());
+                } catch (Exception e) {
+                    var logger = Logger.getLogger("com.apptastic.mfsapdmr");
+                    logger.log(Level.WARNING, "Failed to parse transaction. ", e);
+                }
             }
 
             if (isValid(transaction)) {
