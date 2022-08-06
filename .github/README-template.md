@@ -2,8 +2,8 @@ MFSA PDMR registry
 ==================
 
 [![Build](https://github.com/w3stling/mfsa-pdmr/actions/workflows/build.yml/badge.svg)](https://github.com/w3stling/mfsa-pdmr/actions/workflows/build.yml)
-[![Download](https://img.shields.io/badge/download-2.0.0-brightgreen.svg)](https://search.maven.org/artifact/com.apptasticsoftware/mfsapdmr/2.0.0/jar)
-[![Javadoc](https://img.shields.io/badge/javadoc-2.0.0-blue.svg)](https://w3stling.github.io/mfsa-pdmr/javadoc/2.0.0)
+[![Download](https://img.shields.io/badge/download-%%version%%-brightgreen.svg)](https://search.maven.org/artifact/com.apptasticsoftware/mfsapdmr/%%version%%/jar)
+[![Javadoc](https://img.shields.io/badge/javadoc-%%version%%-blue.svg)](https://w3stling.github.io/mfsa-pdmr/javadoc/%%version%%)
 [![License](http://img.shields.io/:license-MIT-blue.svg?style=flat-round)](http://apptastic-software.mit-license.org)   
 [![Quality Gate](https://sonarcloud.io/api/project_badges/measure?project=w3stling_mfsa-pdmr&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=w3stling_mfsa-pdmr)
 [![Coverage](https://sonarcloud.io/api/project_badges/measure?project=w3stling_mfsa-pdmr&metric=coverage)](https://sonarcloud.io/summary/new_code?id=w3stling_mfsa-pdmr)
@@ -37,9 +37,9 @@ Add dependency declaration:
     ...
     <dependencies>
         <dependency>
-            <groupId>com.apptastic</groupId>
+            <groupId>com.apptasticsoftware</groupId>
             <artifactId>mfsapdmr</artifactId>
-            <version>1.1.2</version>
+            <version>%%version%%</version>
         </dependency>
     </dependencies>
     ...
@@ -50,7 +50,7 @@ Add dependency declaration:
 Add dependency declaration:
 ```groovy
 dependencies {
-    implementation 'com.apptastic:mfsapdmr:2.0.0'
+    implementation 'com.apptasticsoftware:mfsapdmr:%%version%%'
 }
 ```
 
@@ -61,7 +61,7 @@ License
 
     MIT License
     
-    Copyright (c) 2020, Apptastic Software
+    Copyright (c) %%year%%, Apptastic Software
     
     Permission is hereby granted, free of charge, to any person obtaining a copy
     of this software and associated documentation files (the "Software"), to deal
@@ -83,6 +83,6 @@ License
 
 
 [1]: https://www.mfsa.mt
-[2]: https://search.maven.org/artifact/com.apptasticsoftware/mfsapdmr/2.0.0/jar
+[2]: https://search.maven.org/artifact/com.apptasticsoftware/mfsapdmr/%%version%%/jar
 [3]: https://maven.apache.org
 [4]: https://gradle.org
