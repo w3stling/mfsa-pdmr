@@ -12,7 +12,7 @@ jobs:
     permissions:
       contents: write
     runs-on: ubuntu-latest
-    if: github.repository == 'w3stling/mfsapdmr'
+    if: github.repository == 'w3stling/mfsa-pdmr'
 
     steps:
       - name: Checkout repository ⚙️
