@@ -25,8 +25,8 @@
 /**
  * This modules defines the base APIs for mfsapdmr.
  */
-module com.apptastic.mfsapdmr {
-    exports com.apptastic.mfsapdmr;
+module com.apptasticsoftware.mfsapdmr {
+    exports com.apptasticsoftware.mfsapdmr;
 
     requires org.jsoup;
     requires java.logging;
