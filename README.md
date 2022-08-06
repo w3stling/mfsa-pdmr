@@ -37,9 +37,9 @@ Add dependency declaration:
     ...
     <dependencies>
         <dependency>
-            <groupId>com.apptastic</groupId>
+            <groupId>com.apptasticsoftware</groupId>
             <artifactId>mfsapdmr</artifactId>
-            <version>1.1.2</version>
+            <version>2.0.0</version>
         </dependency>
     </dependencies>
     ...
@@ -50,7 +50,7 @@ Add dependency declaration:
 Add dependency declaration:
 ```groovy
 dependencies {
-    implementation 'com.apptastic:mfsapdmr:2.0.0'
+    implementation 'com.apptasticsoftware:mfsapdmr:2.0.0'
 }
 ```
 
