@@ -10,10 +10,10 @@ import java.util.stream.Collectors;
 import static org.junit.jupiter.api.Assertions.*;
 
 
-public class PdmrRegistryTest {
+class PdmrRegistryTest {
 
     @Test
-    public void testSearch() throws IOException {
+    void testSearch() throws IOException {
         PdmrRegistry register = new PdmrRegistry();
         List<Transaction> pdmrList = register.getTransactions()
                                              .collect(Collectors.toList());
@@ -35,7 +35,7 @@ public class PdmrRegistryTest {
     }
 
     @Test
-    public void testEquals() throws IOException {
+    void testEquals() throws IOException {
         PdmrRegistry register = new PdmrRegistry();
         List<Transaction> pdmrList = register.getTransactions()
                                              .distinct()
@@ -48,7 +48,7 @@ public class PdmrRegistryTest {
     }
 
     @Test
-    public void testHash() throws IOException {
+    void testHash() throws IOException {
         PdmrRegistry register = new PdmrRegistry();
         List<Transaction> pdmrList = register.getTransactions()
                                              .distinct()

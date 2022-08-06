@@ -8,10 +8,10 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotEquals;
 
 
-public class TransactionTest {
+class TransactionTest {
 
     @Test
-    public void testEquals() {
+    void testEquals() {
         Transaction t1 = createTransaction(1.0, 2.0);
         Transaction t2 = createTransaction(2.0, 3.0);
         assertEquals(t1, t1);
@@ -20,14 +20,14 @@ public class TransactionTest {
     }
 
     @Test
-    public void testHashCode() {
+    void testHashCode() {
         Transaction t1 = createTransaction(1.0, 2.0);
         Transaction t2 = createTransaction(2.0, 3.0);
         assertEquals(t1.hashCode(), t1.hashCode());
         assertNotEquals(t1.hashCode(), t2.hashCode());
     }
 
-    private Transaction createTransaction(double price, double volume) {
+    Transaction createTransaction(double price, double volume) {
         Transaction transaction = new Transaction();
         transaction.setIssuer("a");
         transaction.setPdmr("b");
