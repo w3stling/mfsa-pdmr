@@ -11,6 +11,11 @@ MFSA PDMR registry
 [![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=w3stling_mfsa-pdmr&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=w3stling_mfsa-pdmr)
 [![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=w3stling_mfsa-pdmr&metric=code_smells)](https://sonarcloud.io/summary/new_code?id=w3stling_mfsa-pdmr)
 
+> **Note** - from version 2.0.0:
+> * New Java package name
+> * New group ID in Maven / Gradle dependency declaration
+> * Moved repository from `JCenter` to `Maven Central Repository`
+
 Person Discharging Managerial Responsibility (PDMR) transaction registry for [Malta Financial Services Authority][1] (MFSA)
 
 This Java library makes it easier to automate data extraction from MFSA PDMR registry.
