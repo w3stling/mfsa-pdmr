@@ -25,4 +25,4 @@
 /**
  * This package is intended for extracting data from the Malta Financial Services Authority (MFSA) Person Discharging Managerial Responsibility (PDMR) registry.
  */
-package com.apptastic.mfsapdmr;
+package com.apptasticsoftware.mfsapdmr;

@@ -21,7 +21,7 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
  */
-package com.apptastic.mfsapdmr;
+package com.apptasticsoftware.mfsapdmr;
 
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
@@ -81,7 +81,7 @@ public class PdmrRegistry {
                 try {
                     mapper.createTransaction(transaction, j, rowItems.get(j).text());
                 } catch (Exception e) {
-                    var logger = Logger.getLogger("com.apptastic.mfsapdmr");
+                    var logger = Logger.getLogger("com.apptasticsoftware.mfsapdmr");
                     logger.log(Level.WARNING, "Failed to parse transaction. ", e);
                 }
             }
@@ -155,7 +155,7 @@ public class PdmrRegistry {
                 floatNumber = Double.valueOf(value);
             }
             catch (Exception e) {
-                var logger = Logger.getLogger("com.apptastic.mfsapdmr");
+                var logger = Logger.getLogger("com.apptasticsoftware.mfsapdmr");
 
                 if (logger.isLoggable(Level.WARNING))
                     logger.log(Level.WARNING, "Failed to parse double. ", e);

@@ -1,4 +1,4 @@
-package com.apptastic.mfsapdmr;
+package com.apptasticsoftware.mfsapdmr;
 
 import org.junit.jupiter.api.Test;
 
