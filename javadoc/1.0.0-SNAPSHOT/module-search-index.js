@@ -1,1 +1,1 @@
-moduleSearchIndex = [{"l":"com.apptastic.mfsapdmr"}]
+moduleSearchIndex = [{"l":"com.apptasticsoftware.mfsapdmr"}]
