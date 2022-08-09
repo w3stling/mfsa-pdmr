@@ -5,6 +5,7 @@ MFSA PDMR registry
 [![Download](https://img.shields.io/badge/download-%%version%%-brightgreen.svg)](https://search.maven.org/artifact/com.apptasticsoftware/mfsapdmr/%%version%%/jar)
 [![Javadoc](https://img.shields.io/badge/javadoc-%%version%%-blue.svg)](https://w3stling.github.io/mfsa-pdmr/javadoc/%%version%%)
 [![License](http://img.shields.io/:license-MIT-blue.svg?style=flat-round)](http://apptastic-software.mit-license.org)   
+[![CodeQL](https://github.com/w3stling/mfsa-pdmr/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/w3stling/mfsa-pdmr/actions/workflows/codeql-analysis.yml)
 [![Quality Gate](https://sonarcloud.io/api/project_badges/measure?project=w3stling_mfsa-pdmr&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=w3stling_mfsa-pdmr)
 [![Coverage](https://sonarcloud.io/api/project_badges/measure?project=w3stling_mfsa-pdmr&metric=coverage)](https://sonarcloud.io/summary/new_code?id=w3stling_mfsa-pdmr)
 [![Bugs](https://sonarcloud.io/api/project_badges/measure?project=w3stling_mfsa-pdmr&metric=bugs)](https://sonarcloud.io/summary/new_code?id=w3stling_mfsa-pdmr)
