@@ -2,7 +2,7 @@ MFSA PDMR registry
 ==================
 
 [![Build](https://github.com/w3stling/mfsa-pdmr/actions/workflows/build.yml/badge.svg)](https://github.com/w3stling/mfsa-pdmr/actions/workflows/build.yml)
-[![Download](https://img.shields.io/badge/download-2.0.1-brightgreen.svg)](https://search.maven.org/artifact/com.apptasticsoftware/mfsapdmr/2.0.1/jar)
+[![Download](https://img.shields.io/badge/download-2.0.1-brightgreen.svg)](https://central.sonatype.com/artifact/com.apptasticsoftware/mfsapdmr/2.0.1/overview)
 [![Javadoc](https://img.shields.io/badge/javadoc-2.0.1-blue.svg)](https://w3stling.github.io/mfsa-pdmr/javadoc/2.0.1)
 [![License](http://img.shields.io/:license-MIT-blue.svg?style=flat-round)](http://apptastic-software.mit-license.org)   
 [![CodeQL](https://github.com/w3stling/mfsa-pdmr/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/w3stling/mfsa-pdmr/actions/workflows/codeql-analysis.yml)
@@ -89,6 +89,6 @@ License
 
 
 [1]: https://www.mfsa.mt
-[2]: https://search.maven.org/artifact/com.apptasticsoftware/mfsapdmr/2.0.1/jar
+[2]: https://central.sonatype.com/artifact/com.apptasticsoftware/mfsapdmr/2.0.1/overview
 [3]: https://maven.apache.org
 [4]: https://gradle.org
