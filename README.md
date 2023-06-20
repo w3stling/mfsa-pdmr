@@ -2,8 +2,8 @@ MFSA PDMR registry
 ==================
 
 [![Build](https://github.com/w3stling/mfsa-pdmr/actions/workflows/build.yml/badge.svg)](https://github.com/w3stling/mfsa-pdmr/actions/workflows/build.yml)
-[![Download](https://img.shields.io/badge/download-2.0.1-brightgreen.svg)](https://central.sonatype.com/artifact/com.apptasticsoftware/mfsapdmr/2.0.1/overview)
-[![Javadoc](https://img.shields.io/badge/javadoc-2.0.1-blue.svg)](https://w3stling.github.io/mfsa-pdmr/javadoc/2.0.1)
+[![Download](https://img.shields.io/badge/download-2.0.2-brightgreen.svg)](https://central.sonatype.com/artifact/com.apptasticsoftware/mfsapdmr/2.0.2/overview)
+[![Javadoc](https://img.shields.io/badge/javadoc-2.0.2-blue.svg)](https://w3stling.github.io/mfsa-pdmr/javadoc/2.0.2)
 [![License](http://img.shields.io/:license-MIT-blue.svg?style=flat-round)](http://apptastic-software.mit-license.org)   
 [![CodeQL](https://github.com/w3stling/mfsa-pdmr/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/w3stling/mfsa-pdmr/actions/workflows/codeql-analysis.yml)
 [![Quality Gate](https://sonarcloud.io/api/project_badges/measure?project=w3stling_mfsa-pdmr&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=w3stling_mfsa-pdmr)
@@ -45,7 +45,7 @@ Add dependency declaration:
         <dependency>
             <groupId>com.apptasticsoftware</groupId>
             <artifactId>mfsapdmr</artifactId>
-            <version>2.0.1</version>
+            <version>2.0.2</version>
         </dependency>
     </dependencies>
     ...
@@ -56,7 +56,7 @@ Add dependency declaration:
 Add dependency declaration:
 ```groovy
 dependencies {
-    implementation 'com.apptasticsoftware:mfsapdmr:2.0.1'
+    implementation 'com.apptasticsoftware:mfsapdmr:2.0.2'
 }
 ```
 
@@ -67,7 +67,7 @@ License
 
     MIT License
     
-    Copyright (c) 2022, Apptastic Software
+    Copyright (c) 2023, Apptastic Software
     
     Permission is hereby granted, free of charge, to any person obtaining a copy
     of this software and associated documentation files (the "Software"), to deal
@@ -89,6 +89,6 @@ License
 
 
 [1]: https://www.mfsa.mt
-[2]: https://central.sonatype.com/artifact/com.apptasticsoftware/mfsapdmr/2.0.1/overview
+[2]: https://central.sonatype.com/artifact/com.apptasticsoftware/mfsapdmr/2.0.2/overview
 [3]: https://maven.apache.org
 [4]: https://gradle.org
