@@ -90,7 +90,7 @@ jobs:
           key: ${{ runner.os }}-gradle-wrapper-${{ hashFiles('**/gradle/wrapper/gradle-wrapper.properties') }}
 
       - name: Validate Gradle wrapper ⚙️
-        uses: gradle/wrapper-validation-action@e6e38bacfdf1a337459f332974bb2327a31aaf4b
+        uses: gradle/wrapper-validation-action@v1
 
       - name: Grant execute permission for gradlew ⚙️
         run: chmod +x gradlew
@@ -110,6 +110,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+
 
   documentation:
     name: 📚 Publish Javadoc
@@ -140,7 +141,7 @@ jobs:
           key: ${{ runner.os }}-gradle-wrapper-${{ hashFiles('**/gradle/wrapper/gradle-wrapper.properties') }}
 
       - name: Validate Gradle wrapper ⚙️
-        uses: gradle/wrapper-validation-action@e6e38bacfdf1a337459f332974bb2327a31aaf4b
+        uses: gradle/wrapper-validation-action@v1
 
       - name: Grant execute permission for gradlew ⚙️
         run: chmod +x gradlew
@@ -159,7 +160,7 @@ jobs:
         run: ./gradlew javadoc
 
       - name: Deploy Javadoc 📚
-        uses: JamesIves/github-pages-deploy-action@v4.4.2
+        uses: JamesIves/github-pages-deploy-action@v4
         with:
           branch: gh-pages
           folder: build/docs/javadoc
@@ -198,7 +199,7 @@ jobs:
           key: ${{ runner.os }}-gradle-wrapper-${{ hashFiles('**/gradle/wrapper/gradle-wrapper.properties') }}
 
       - name: Validate Gradle wrapper ⚙️
-        uses: gradle/wrapper-validation-action@e6e38bacfdf1a337459f332974bb2327a31aaf4b
+        uses: gradle/wrapper-validation-action@v1
 
       - name: Grant execute permission for gradlew ⚙️
         run: chmod +x gradlew
