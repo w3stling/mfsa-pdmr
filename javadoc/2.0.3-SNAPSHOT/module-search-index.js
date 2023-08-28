@@ -1,1 +1,1 @@
-moduleSearchIndex = [{"l":"com.apptasticsoftware.mfsapdmr"}]
+moduleSearchIndex = [{"l":"com.apptasticsoftware.mfsapdmr"}];updateSearchResults();

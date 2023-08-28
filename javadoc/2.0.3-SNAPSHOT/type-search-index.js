@@ -1,1 +1,1 @@
-typeSearchIndex = [{"l":"All Classes","url":"allclasses-index.html"},{"p":"com.apptasticsoftware.mfsapdmr","l":"PdmrRegistry"},{"p":"com.apptasticsoftware.mfsapdmr","l":"Transaction"}]
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"com.apptasticsoftware.mfsapdmr","l":"PdmrRegistry"},{"p":"com.apptasticsoftware.mfsapdmr","l":"Transaction"}];updateSearchResults();
