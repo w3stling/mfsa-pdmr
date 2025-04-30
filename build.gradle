@@ -3,12 +3,13 @@ plugins {
     id 'jacoco'
     id 'signing'
     id 'maven-publish'
+    id 'biz.aQute.bnd.builder' version '7.1.0'
     id 'io.github.gradle-nexus.publish-plugin' version '2.0.0'
     id 'org.sonarqube' version '6.1.0.5360'
 }
 
-group 'com.apptasticsoftware'
-version "${version}"
+group = 'com.apptasticsoftware'
+version = "${version}"
 
 repositories {
     mavenCentral()
@@ -55,6 +56,24 @@ jacocoTestReport {
     reports {
         xml.required = true
         xml.outputLocation = file("${buildDir}/reports/jacoco/report.xml")
+    }
+}
+
+jar {
+    manifest {
+        attributes(
+                "Build-Jdk-Spec": java.targetCompatibility,
+                "Implementation-Title": "MFSA PDMR",
+                "Implementation-Version": version,
+                "Specification-Title": "MFSA PDMR",
+                "Specification-Version": version.replace("-SNAPSHOT", ""),
+                "Automatic-Module-Name": moduleName,
+                "Bundle-SymbolicName": moduleName,
+                "Bundle-Description": "Java library for extracting data from the Malta Financial Services Authority (MFSA) PDMR registry",
+                "Bundle-License": "https://opensource.org/licenses/MIT",
+                "Bundle-Name": "MFSA PDMR",
+                "Export-Package": "*;-split-package:=merge-first;-noimport:=true",
+        )
     }
 }
 
