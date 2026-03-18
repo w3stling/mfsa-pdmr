@@ -60,7 +60,7 @@ jobs:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
 
       - name: Publish Test Results 🚦
-        uses: EnricoMi/publish-unit-test-result-action@6c2d9db40f9296374acc17b90404b6e8864128c8 # v4.7.3
+        uses: EnricoMi/publish-unit-test-result-action@c950f6fb443cb5af20a377fd0dfaa78838901040 # v2.23.0
         if: always()
         with:
           files: |
